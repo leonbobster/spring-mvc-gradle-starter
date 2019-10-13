@@ -1,0 +1,14 @@
+plugins {
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.2.0.RELEASE'
+}
